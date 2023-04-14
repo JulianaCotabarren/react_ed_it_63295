@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-import UnComponent from './components/UnComponent';
+import ComponenteClase from './components/ComponenteClase';
+import PasarProps from './components/PasarProps';
+import ComponenteFuncional from './components/ComponenteFuncional';
 
 function App() {
   return (
@@ -19,7 +21,11 @@ function App() {
           Learn React
         </a>
       </header>
-      <UnComponent/>
+      <ComponenteClase/>
+      <hr/>
+      <PasarProps string="undato de tipo string"/>
+      <hr/>
+      <ComponenteFuncional nombre="Pepa"/>
     </div>
   );
 }
